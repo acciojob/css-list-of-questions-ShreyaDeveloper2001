@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+body{
+	font-family: Arial, sans-serif;
+	background-color: #f8fffe;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.questions{
+	background-color: #f8fffe;
+	margin-top: 20px;
+	padding: 15px;
+	max-width: 600px;
+	border-left: 8px solid green;
+}
+
+.questions p{
+	margin: 0;
+}
